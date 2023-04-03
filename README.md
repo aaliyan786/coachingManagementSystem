@@ -1,6 +1,6 @@
 # NoEnd Academy
 
-A Coaching Management System built using Flutter for the front-end and MySQL & PHPMyAdmin for the back-end. The application has 3 types of users: admin, teacher, and student.
+A Coaching Management System for android built using Flutter for the front-end and MySQL & PHPMyAdmin for the back-end. The application has 3 types of users: admin, teacher, and student.
 
 ## Features
 <ul>
