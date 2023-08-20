@@ -12,12 +12,12 @@ A Coaching Management System for android built using Flutter for the front-end a
 
 ## Features
 <ul>
-<li>Three user types: admin, teacher, and student
-<li>Login page with authentication for security
-<li>Admin can add and remove teachers and students
-<li>Teachers can view their assigned courses
-<li>Students can view their courses, marks, and fee details
-<li>Each user has their own dashboard
+<li>Three user types: admin, teacher, and student</li>
+<li>Login page with authentication for security</li>
+<li>Admin can add and remove teachers and students</li>
+<li>Teachers can view their assigned courses</li>
+<li>Students can view their courses, marks, and fee details</li>
+<li>Each user has their own dashboard</li>
 </ul>
 
 ## Screenshots
@@ -50,18 +50,18 @@ A Coaching Management System for android built using Flutter for the front-end a
 
 ## Technologies Used
 <ul>
-<li>Flutter
-<li>MySQL
-<li>PHPMyAdmin
-<li>PHP
+<li>Flutter</li>
+<li>MySQL</li>
+<li>PHPMyAdmin</li>
+<li>PHP</li>
 </ul>
 
 ## Future Enhancements
 <ul>
-<li>Implementing a notification system for new courses and announcements
-<li>Adding more features for students and teachers such as atendance
-<li>Adding the ability for teachers to add and update marks
-<li>Adding the ability for students to pay fees online
+<li>Implementing a notification system for new courses and announcements</li>
+<li>Adding more features for students and teachers such as atendance</li>
+<li>Adding the ability for teachers to add and update marks</li>
+<li>Adding the ability for students to pay fees online</li>
 </ul>
 
 ## Contributors
@@ -79,22 +79,24 @@ A Coaching Management System for android built using Flutter for the front-end a
 
 ### Note:
  The noEndDB folder in the repo is the backend. It also contains the exported sql file named noendacademy.sql. The credentials for users are:
-  <ul>
-    <li>Admin:
-      <ul>
-        <li> username: admin
-        <li> password: 123
-      </ul>
+<ul>
+  <li>Admin:
+    <ul>
+      <li>Username: admin</li>
+      <li>Password: 123</li>
+    </ul>
+  </li>
+  <li>Student:
+    <ul>
+      <li>Username: new</li>
+      <li>Password: 123</li>
+    </ul>
+  </li>
+  <li>Teacher:
+    <ul>
+      <li>Username: teach</li>
+      <li>Password: 123</li>
+    </ul>
+  </li>
+</ul>
 
-       <li>Student:
-      <ul>
-        <li> username: new
-        <li> password: 123
-      </ul>
-
-       <li>Teacher:
-      <ul>
-        <li> username: teach
-        <li> password: 123
-      </ul>
-  <ul>
