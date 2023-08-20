@@ -9,7 +9,7 @@ import 'globals.dart' as globals;
 class LoginDetails {
   static const _signIn = 'SignIn';
   static const _register = 'Add_User';
-  static const root = 'https://noendacademy.000webhostapp.com/signup.php';
+  static const root = 'http://localhost/noEndDB/signup.php';
 
   final String loginID;
   final String pass;
@@ -77,6 +77,7 @@ void createUser(String loginID, String pass, String status) async {
 //fetch data to server and convert response to class.
 //user login
 Future<bool> loginUser(String loginID, String pass) async {
+  print('inside login function');
   final response = await http.post(
     Uri.parse(LoginDetails.root),
     headers: {
@@ -90,7 +91,9 @@ Future<bool> loginUser(String loginID, String pass) async {
   );
 
   var data = jsonDecode(response.body);
-  //print(data[0]);
+  print('data');
+  print(data);
+  print(data[0]);
   if (data[0] == "Success") {
     // If the server did return a 200 OK response,
     // then parse the JSON and show toast.

@@ -4,7 +4,7 @@ import 'package:coaching_management_system/repositories/globals.dart';
 import 'package:http/http.dart' as http;
 
 class Admin {
-  static const root = 'https://noendacademy.000webhostapp.com/admin.php';
+  static const root = 'http://localhost/noEndDB/admin.php';
   static const _getOne = 'GET_ONE';
   static const _getAll = 'GET_ALL';
   static const _add = '_ADD';
