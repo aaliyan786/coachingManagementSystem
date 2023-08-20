@@ -76,3 +76,25 @@ A Coaching Management System for android built using Flutter for the front-end a
 - Developed the backend for the application using PHP and MySQL. 
 - Implemented the authentication and authorization logic for each user type.
 - Contributed to the testing and debugging of the application.
+
+### Note:
+ The noEndDB folder in the repo is the backend. It also contains the exported sql file named noendacademy.sql. The credentials for users are:
+  <ul>
+    <li>Admin:
+      <ul>
+        <li> username: admin
+        <li> password: 123
+      </ul>
+
+       <li>Student:
+      <ul>
+        <li> username: new
+        <li> password: 123
+      </ul>
+
+       <li>Teacher:
+      <ul>
+        <li> username: teach
+        <li> password: 123
+      </ul>
+  <ul>
